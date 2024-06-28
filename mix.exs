@@ -8,7 +8,7 @@ defmodule SurfaceFormatter.MixProject do
     [
       app: :surface_formatter,
       version: @version,
-      elixir: "~> 1.15",
+      elixir: "~> 1.18.0-dev",
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps(),
